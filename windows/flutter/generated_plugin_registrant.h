@@ -12,4 +12,4 @@
 // Registers Flutter plugins.
 void RegisterPlugins(flutter::PluginRegistry* registry);
 
- // GENERATED_PLUGIN_REGISTRANT_
+#endif  // GENERATED_PLUGIN_REGISTRANT_
