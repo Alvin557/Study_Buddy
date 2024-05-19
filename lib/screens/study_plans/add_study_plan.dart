@@ -196,7 +196,7 @@ class _AddStudyPlansState extends State<AddStudyPlans> {
                     const CustomText(text: "Repeat"),
                     SizedBox(
                       child: Switch(
-                          trackOutlineWidth: MaterialStateProperty.all(0),
+                          trackOutlineWidth: WidgetStateProperty.all(0),
                           activeColor: StudyBuddy.primaryColor,
                           inactiveTrackColor: StudyBuddy.primaryColor,
                           inactiveThumbColor: StudyBuddy.whiteColor,

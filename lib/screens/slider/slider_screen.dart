@@ -224,7 +224,7 @@ class DotWidget extends StatelessWidget {
   }
 }
 
-class NoSplashState extends MaterialStatesController {
+class NoSplashState extends WidgetStatesController {
   @override
-  void update(MaterialState state, bool add) {}
+  void update(WidgetState state, bool add) {}
 }
