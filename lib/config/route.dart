@@ -60,7 +60,7 @@ class StudyBuddyRoute {
       case studyMaterialRoute:
         return _getPageRoute(const StudyMaterial());
     }
-    return null;
+    return null
   }
 
   static PageRoute _getPageRoute(Widget viewToShow) {
